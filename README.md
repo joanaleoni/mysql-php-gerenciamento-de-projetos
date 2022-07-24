@@ -13,9 +13,9 @@ A aplicação conta com todas as operações do <strong>CRUD (Create, Read, Upda
 
 ### Descrição das funções utilizadas
 <ul>
-  <li><strong>keepData:</strong> função para manter os dados informados anteriormente no formulário caso o usuário já tenha feito uma tentativa de cadastro, mas foi impedido de cadastrar o projeto por fornecer ID já existente ou por não ter informado todos os dados necessários;</li>
-  <li><strong>fillingValidade:</strong> função para validar o preenchimento dos campos do formulário;</li>
-  <li><strong>formatDate:</strong> função para converter uma data para o formato brasileiro (DD/MM/AAAA);</li>
+  <li><strong>keepData:</strong> função para manter os dados informados anteriormente no formulário caso o usuário já tenha feito uma tentativa de cadastro, mas foi impedido de cadastrar o projeto por fornecer ID já existente ou por não ter informado todos os dados necessários</li>
+  <li><strong>fillingValidade:</strong> função para validar o preenchimento dos campos do formulário</li>
+  <li><strong>formatDate:</strong> função para converter uma data para o formato brasileiro (DD/MM/AAAA)</li>
   <li><strong>formatHours:</strong> função para formatar horas, omitindo o campo de minutos para horas pontuais</li>
   <li><strong>formatFinancialValue:</strong> função para formatar valores financeiros de acordo com o formato brasileiro</li>
 </ul>
