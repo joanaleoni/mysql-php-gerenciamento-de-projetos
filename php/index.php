@@ -48,6 +48,7 @@
         <option value="list-id-and-budget">Listar ID e orçamento dos projetos cadastrados</option>
         <option value="number-of-projects-after-date">Mostrar o número de projetos com data de início após 01/01/2020</option>
         <option value="delete-projects">Excluir do banco de dados projetos com menos de 100 horas de execução e orçamento inferior a R$1.000,00</option>
+        <option value="update-budget">Atualizar orçamento de projetos com orçamento superior a R$3.000,00, acrescentando taxa de 10% ao orçamento atual</option>
       </select>
    <button name="send"> Executar operação </button>
 
@@ -76,6 +77,10 @@
         
       case "delete-projects":
         require_once "../includes/delete-projects.inc.php";
+        break;
+
+      case "update-budget":
+        require_once "../includes/update-budget.inc.php";
         break;
     }
   }
