@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+ text-align: center;
+ background: #354f52;
+ box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+ color: #fff;
+ padding: 13px;
+}
+
+input, select, option, button {
+  font-family: "Montserrat", sans-serif;
+}
+
+label.align {
+ width: 300px;
+ display: inline-block;
+ margin-bottom: 15px;
+ text-align: right;
+}
+
+fieldset {
+ width: 56%;
+ margin: 30px auto;
+ padding: 20px;
+ border-radius: 7px;
+ border: 1px solid black;
+ background-image: url("https://e7.pngegg.com/pngimages/758/386/png-clipart-simple-white-honeycomb-pattern-background-white-polygon.png");
+ background-size: 100% auto;
+}
+
+button {
+ font-weight: bold;
+ margin: 20px auto;
+ display: block;
+ margin-bottom: 0;
+ width: 220px;
+ height: 40px;
+ font-size: 16px;
+ border-radius: 6px;
+ border: none;
+ color: #fff;
+ background: #3d5c5f;
+}
+
+button:hover{
+  background: #354f52;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  width: 50%;
+  border: 1px solid #777;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+span {
+  color: #354f52;
+  font-weight: bold;
+}
+
+table {
+  width: 50%;
+  border: 1px solid #777;
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+th, td {
+  border: 1px solid #777;
+}
+
+th {
+  background: #354f52;
+  color: #fff;
+}
+
+td {
+  text-align: center;
+  background: #fff;
+}
