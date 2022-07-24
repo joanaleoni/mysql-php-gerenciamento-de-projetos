@@ -3,7 +3,7 @@
   $conn->query($sql) or exit($conn->error);
 
   if($conn->affected_rows == 0)
-    exit("<p>Nenhum projeto cadastrado atende à condição (orçamento superior a R$3.000,00). Nenhum registro foi alterado.</p>");
+    exit("<p>Nenhum projeto cadastrado atende à condição <span>(orçamento superior a R$3.000,00)</span>. Nenhum registro foi alterado.</p>");
   
   $sql = "SELECT * FROM $tableName WHERE budget > 3000";
   $result = $conn->query($sql) or exit($conn->error);
