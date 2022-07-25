@@ -1,6 +1,6 @@
 <?php
-  function keepData($session, $inputName){
-    if(isset($session))
+  function keepData($inputName){
+    if(isset($_SESSION))
       if(isset($_SESSION[$inputName])){
         $sessionValue = $_SESSION[$inputName];
         echo "value='$sessionValue'";

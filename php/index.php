@@ -25,19 +25,19 @@
    
    <label class="align"> ID do projeto: </label>
    <input type="text" name="project-id" placeholder="Forneça o ID do projeto" autofocus
-   <?php keepData($_SESSION, 'project-id')?>><br>
+   <?php keepData('project-id')?>><br>
 
    <label class="align"> Orçamento em R$: </label>
    <input type="number" name="budget" min="0" step=".01" 
-   <?php keepData($_SESSION, 'budget')?>><br>
+   <?php keepData('budget')?>><br>
 
    <label class="align">Data de início: </label>
    <input type="date" name="start-date"
-   <?php keepData($_SESSION, 'start-date')?>><br>
+   <?php keepData('start-date')?>><br>
 
    <label class="align">Horas necessárias para execução do projeto: </label>
    <input type="number" name="hours" min="0" step=".01" 
-   <?php keepData($_SESSION, 'hours');?>><br>
+   <?php keepData('hours');?>><br>
 
   </fieldset>
   <fieldset>

@@ -20,7 +20,7 @@
  $conn->query($sql) or exit($conn->error);
 
  if($conn->affected_rows > 0)
-  exit("<p>Caro/a usuário/a, já há um projeto de ID <span>$idProject</span> cadastrado no banco de dados. Por favor, insira um ID único para o projeto que deseja cadastrar.</p>");
+  exit("<p>Caro/a usuário/a, já há um projeto de ID <span>$idProject</span> cadastrado no banco de dados. Por favor, insira um ID único para o projeto que deseja register.</p>");
 
  $sql = "INSERT $tableName VALUES('$idProject', $budget, '$startDate', $hours)";
  $conn->query($sql) or exit($conn->error);
